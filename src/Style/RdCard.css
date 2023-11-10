@@ -1,0 +1,19 @@
+.Rd__card{
+    text-align: center;
+
+}
+.Rd__card p{
+    color: #FFF;
+    text-align: center;
+    width: 193px;
+    height: 47px;
+    flex-shrink: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px; /* 135% */
+    margin-top: 50px;
+}
+.Rd__card img{
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+.Que{
+    background: var(--dark, #242B33);
+    padding-bottom: 180px;
+}
+.Que h2{
+    color: var(--accent, #D4C17F);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 60px;
+}
+.que__grid p{
+    width: 255px;
+    height: 28px;
+    flex-shrink: 0;
+    color: #E7E7E7;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 123.077% */
+}
+.que__grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 35px;
+}
+@media(max-width:1190px){
+    .que__grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width:570px){
+    .que__grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
